@@ -1,0 +1,59 @@
+/* MEDA QUERY 670px */
+
+@media (max-width: 670px) {
+  .register .icon-user-670 {
+    display: block;
+  }
+
+  .hidden-670 {
+    display: none !important ;
+  }
+
+  .booking-content {
+    justify-content: center;
+  }
+
+  .visibility-hidden {
+    visibility: hidden;
+  }
+
+  .beach-section {
+    background-color: #f2f2f2;
+  }
+
+  .transparent-bar {
+    background-color: white;
+  }
+
+  .worldwide-default {
+    width: 300px;
+    height: 410px;
+  }
+
+  .worldwide-default img {
+    width: 250px;
+  }
+
+  .triple-img {
+    flex-wrap: nowrap;
+    width: auto;
+    overflow: scroll;
+    gap: 20px;
+    justify-content: flex-start;
+    padding: 20px;
+  }
+  .triple-img > div:nth-child(3) {
+    width: auto;
+  }
+
+  .triple-img > div:nth-child(3) img {
+    width: 285px;
+  }
+
+  .footer-div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,39 @@
+/* TRIPLE IMG - STYLE */
+
+.triple-img {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+  color: #333333;
+}
+
+.triple-img img {
+  display: block;
+  border-radius: 5px;
+  box-shadow: 0 0 5px gray;
+  width: 285px;
+}
+
+.triple-img div {
+  display: flex;
+  position: relative;
+}
+
+.triple-img div p {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.triple-img div a {
+  position: absolute;
+  font-size: 20px;
+  left: 15px;
+  bottom: 15px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}

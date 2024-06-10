@@ -1,0 +1,52 @@
+/* CAROUSSEL 1 */
+
+.caroussel-1 {
+  display: flex;
+  overflow: scroll;
+  gap: 20px;
+  color: #333333;
+  padding: 0 10px;
+}
+
+.element-caroussel {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 0 5px gray;
+  width: 300px;
+  height: 380px;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  border-radius: 5px;
+}
+
+.element-caroussel img {
+  width: 300px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 5px 5px 0px 0px;
+  display: block;
+}
+
+.element-caroussel h3 {
+  margin-top: 20px;
+  margin-left: 20px;
+  font-size: 16px;
+}
+
+.element-caroussel p {
+  font-size: 14px;
+  margin: 20px;
+}
+
+.element-caroussel button {
+  font-size: 14px;
+  color: white;
+  background-color: #f60;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 30px;
+  width: fit-content;
+  margin-left: 20px;
+  margin-bottom: 30px;
+}

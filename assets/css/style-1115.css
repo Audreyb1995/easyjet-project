@@ -1,0 +1,15 @@
+/* MEDIA QUERY 1115px */
+
+@media (max-width: 1115px) {
+  .menu-header a {
+    display: none;
+  }
+
+  header .icon-burger-menu-1115 {
+    display: inline-block;
+  }
+
+  .hidden-1115 {
+    display: none !important ;
+  }
+}

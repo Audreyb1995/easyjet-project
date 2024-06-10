@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "easyJet Generation Headline";
+  src: url("../fonts/easyJetGenerationHeadline.woff2") format("woff2"),
+    url("../fonts/easyJetGenerationHeadline.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "easyJet Rounded Book";
+  src: url("../fonts/easyJetRoundedBook.woff2") format("woff2"),
+    url("../fonts/easyJetRoundedBook.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

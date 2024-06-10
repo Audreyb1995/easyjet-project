@@ -1,0 +1,49 @@
+/* CAROUSSEL2 - HELP */
+
+.caroussel-2-help h4 {
+  font-size: 20px;
+  color: #333333;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.caroussel-2 {
+  overflow: scroll;
+  display: flex;
+  gap: 20px;
+}
+
+.element-caroussel-2 {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(
+    163deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(168, 168, 168, 1) 100%
+  );
+  border-radius: 5px;
+  margin-bottom: 50px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.element-caroussel-2:hover {
+  background: #f60;
+  cursor: pointer;
+}
+
+.element-caroussel-2 p {
+  color: white;
+  font-size: 13px;
+  padding: 20px;
+}
+
+.icon-caroussel-2 {
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 25px;
+}

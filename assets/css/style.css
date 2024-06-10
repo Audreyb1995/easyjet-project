@@ -1,0 +1,53 @@
+/* MEDIA QUERIES */
+
+@import url(./style-1115.css);
+@import url(./style-960.css);
+@import url(./style-670.css);
+
+/* GLOBAL STYLE */
+
+@import url(./global.css);
+
+/* HEADER */
+
+@import url(./header.css);
+
+/* BEACH SECTION */
+
+@import url(./beach-section.css);
+
+/* BOOKING MENU */
+
+@import url(./booking-menu.css);
+
+/* PUBLICITY BOOKING */
+
+@import url(./publicity-booking.css);
+
+/* TRANSPARENT BAR */
+
+@import url(./transparent-bar.css);
+
+/* WORLDWIDE - STYLE */
+
+@import url(./worldwide-style.css);
+
+/* CAROUSSEL 1 */
+
+@import url(./caroussel-1.css);
+
+/* WORLDWIDE 2 - SECTION */
+
+@import url(./worldwide-2.css);
+
+/* TRIPLE IMG - STYLE */
+
+@import url(./triple-img.css);
+
+/* CAROUSSEL2 - HELP */
+
+@import url(./caroussel-2.css);
+
+/* FOOTER */
+
+@import url(./footer.css);

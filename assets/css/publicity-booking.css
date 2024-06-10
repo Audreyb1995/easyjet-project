@@ -1,0 +1,29 @@
+/* publicity booking */
+
+.publicity-booking {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 280px;
+}
+
+.title-publicity {
+  font-size: 50px;
+  font-family: easyJet Generation Headline;
+  margin-bottom: 40px;
+}
+
+.price {
+  font-size: 45px;
+}
+
+.publicity-booking button {
+  font-size: 14px;
+  color: white;
+  background-color: #f60;
+  border: none;
+  border-radius: 2px;
+  padding: 10px 30px;
+  width: fit-content;
+}

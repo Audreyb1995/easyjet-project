@@ -1,0 +1,50 @@
+/* WORLDWIDE - STYLE */
+
+h2 {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.worldwide-default {
+  display: flex;
+  margin-bottom: 20px;
+  box-shadow: 0 0 5px gray;
+  border-radius: 10px;
+  overflow: hidden;
+  color: #333333;
+}
+
+.worldwide-default div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+  flex: 1;
+}
+
+.worldwide-default p {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.worldwide-default img {
+  width: 640px;
+}
+.worldwide-default button {
+  font-size: 14px;
+  color: white;
+  background-color: #f60;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 30px;
+  align-self: end;
+}
+
+.worldwide img {
+  height: 250px;
+  object-fit: cover;
+  object-position: right top;
+  display: block;
+}

@@ -1,0 +1,37 @@
+/* transparent bar */
+
+.transparent-bar {
+  position: absolute;
+  width: 100%;
+  height: 130px;
+  background: rgba(255, 255, 255, 0.5);
+  top: 585px;
+}
+
+.element-transparent-bar {
+  display: flex;
+  height: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  color: #333333;
+}
+
+.element-transparent-bar > div > h1 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.element-transparent-bar > div > p {
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.element-transparent-bar button {
+  font-size: 14px;
+  color: white;
+  background-color: #f60;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 30px;
+  margin-top: 10px;
+}
